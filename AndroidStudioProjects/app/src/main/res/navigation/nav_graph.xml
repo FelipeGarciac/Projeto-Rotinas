@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/todayFragment">
+
+    <fragment
+        android:id="@+id/metasFragment"
+        android:name="com.example.bottomnavegation.metaskFragment"
+        android:label="fragment_metask"
+        tools:layout="@layout/fragment_metask" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.bottomnavegation.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/todayFragment"
+        android:name="com.example.bottomnavegation.todayFragment"
+        android:label="fragment_today"
+        tools:layout="@layout/fragment_today" />
+    <fragment
+        android:id="@+id/weekFragment"
+        android:name="com.example.bottomnavegation.weekFragment"
+        android:label="fragment_week"
+        tools:layout="@layout/fragment_week" />
+</navigation>
